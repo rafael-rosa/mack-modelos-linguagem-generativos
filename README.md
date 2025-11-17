@@ -144,6 +144,7 @@ Duas sugestões de aplicações possíveis para o projeto, conectando diretament
 Este cenário aproveita a força principal do Zero-Shot: a capacidade de funcionar sem dados prévios.
 
 **O Problema:** Uma plataforma de streaming (como Netflix ou Globoplay) lança 10 novos títulos por semana. Eles não têm dados históricos de reviews para esses filmes específicos antes do lançamento. Treinar um modelo novo para cada filme seria inviável e lento.
+
 **A Aplicação:** Um sistema de "Monitoramento de Lançamento".
 
 + O sistema varre o Twitter/X e Reddit nas primeiras 4 horas após a estreia.
