@@ -113,6 +113,12 @@ Abra o notebook `movie_review_classif.ipynb` em seu editor de código preferido 
 
     Nota: Na primeira execução, a biblioteca kagglehub fará o download do dataset (aprox. 64MB) e os modelos serão baixados (BART-Large tem ~1.6GB e DistilBERT ~268MB). Os checkpoints do modelo treinado serão salvos na pasta ./results.
 
+### ⚠️ IMPORTANTE: Execução via Google Colab
+
+Executar o notebook via Google Colab poderá exigir o fornecimento de uma API Key do `wandb.ai` no passo **3.2 (Treinamento)**. Obtenha uma API Key criando uma conta em https://wandb.ai/authorize?ref=models e forneça a chave diretamente no Colab no momento em que for solicitada. **O não fornecimento da API Key implicará em erro de execução.**
+
+
+
 ### 📂 Estrutura do Projeto
 
 <pre>
