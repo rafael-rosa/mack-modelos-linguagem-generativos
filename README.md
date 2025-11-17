@@ -148,7 +148,7 @@ Este cenário aproveita a força principal do Zero-Shot: a capacidade de funcion
 **A Aplicação:** Um sistema de "Monitoramento de Lançamento".
 
 + O sistema varre o Twitter/X e Reddit nas primeiras 4 horas após a estreia.
-+ Usa o Zero-Shot para classificar o sentimento imediato.
++ Usa-se o Zero-Shot para classificar o sentimento imediato.
 
 #### 📈 **Valor de Negócio:** 
 
@@ -163,7 +163,7 @@ Este cenário aproveita a força do modelo Fine-Tuned: eficiência, velocidade e
 
 **A Aplicação:** Um sistema de "Triagem Automática de Feedback".
 
-+ Você usa o seu modelo Fine-Tuned (DistilBERT), que é leve e rápido.
++ Usamos o seu modelo Fine-Tuned, que é leve e rápido.
 + O modelo processa todos os comentários recebidos em batch (ou em tempo real).
 
 #### 📈 **Valor de Negócio:** 
