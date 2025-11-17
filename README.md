@@ -131,3 +131,41 @@ Executar o notebook via Google Colab poderá exigir o fornecimento de uma API Ke
 ├── other-requirements.txt      # Dependências do PyTorch (GPU)
 └── README.md                   # Este arquivo
 </pre>
+
+
+---
+
+# 💲Aplicações práticas reais - Plano de negócios
+
+Duas sugestões de aplicações possíveis para o projeto, conectando diretamente as tecnologias objetos do teste (***Zero-Shot e Fine-Tuning***) com cenários de negócio tangíveis:
+
+## 1️⃣. Cenário "Cinema & Streaming": ***Termômetro de Estreias em Tempo Real***
+
+Este cenário aproveita a força principal do Zero-Shot: a capacidade de funcionar sem dados prévios.
+
+#### **O Problema:** Uma plataforma de streaming (como Netflix ou Globoplay) lança 10 novos títulos por semana. Eles não têm dados históricos de reviews para esses filmes específicos antes do lançamento. Treinar um modelo novo para cada filme seria inviável e lento.
+#### **A Aplicação** Um sistema de "Monitoramento de Lançamento".
+
++ O sistema varre o Twitter/X e Reddit nas primeiras 4 horas após a estreia.
++ Usa o Zero-Shot para classificar o sentimento imediato.
+
+#### 📈 **Valor de Negócio:** 
+
++ `Marketing Dinâmico:` Se o sentimento for muito negativo ("O filme é chato"), a equipe de marketing pode pausar o gasto com anúncios imediatamente para economizar dinheiro.
++ `Gestão de Crise:` Se o sentimento for extremamente negativo devido a uma controvérsia específica, a equipe de PR é alertada instantaneamente.
+
+## 2️⃣. Cenário "Varejo e Serviços": ***Gestão de Reputação***
+
+Este cenário aproveita a força do modelo Fine-Tuned: eficiência, velocidade e baixo custo computacional para alto volume.
+
+#### O Problema: Grandes redes de franquias (ex: Burger King, Smart Fit, etc) recebem milhares de comentários por dia via Google Maps, Reclame Aqui, App Store e outros canais. Ler tudo manualmente é impossível e rodar um modelo grande para milhares de textos diariamente seria muito caro (custo de GPU/Cloud).
+
+#### **A Aplicação**: Um sistema de "Triagem Automática de Feedback".
+
++ Você usa o seu modelo Fine-Tuned (DistilBERT), que é leve e rápido.
++ O modelo processa todos os comentários recebidos em batch (ou em tempo real).
+
+#### 📈 **Valor de Negócio:** 
+
++ `Priorização de SAC:` Comentários classificados como "Negativos" com alta confiança são enviados para uma fila prioritária de atendimento humano (retenção de cliente).
++ `Analytics de Loja:` O sistema gera um dashboard mostrando: "A loja do Shopping X teve 80% de sentimento negativo hoje", permitindo que o gerente regional investigue problemas operacionais (ex: ar condicionado quebrado, atendimento ruim) antes que virem uma crise maior.
