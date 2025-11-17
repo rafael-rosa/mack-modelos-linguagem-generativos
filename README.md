@@ -143,8 +143,8 @@ Duas sugestões de aplicações possíveis para o projeto, conectando diretament
 
 Este cenário aproveita a força principal do Zero-Shot: a capacidade de funcionar sem dados prévios.
 
-#### **O Problema:** Uma plataforma de streaming (como Netflix ou Globoplay) lança 10 novos títulos por semana. Eles não têm dados históricos de reviews para esses filmes específicos antes do lançamento. Treinar um modelo novo para cada filme seria inviável e lento.
-#### **A Aplicação** Um sistema de "Monitoramento de Lançamento".
+**O Problema:** Uma plataforma de streaming (como Netflix ou Globoplay) lança 10 novos títulos por semana. Eles não têm dados históricos de reviews para esses filmes específicos antes do lançamento. Treinar um modelo novo para cada filme seria inviável e lento.
+**A Aplicação:** Um sistema de "Monitoramento de Lançamento".
 
 + O sistema varre o Twitter/X e Reddit nas primeiras 4 horas após a estreia.
 + Usa o Zero-Shot para classificar o sentimento imediato.
@@ -158,9 +158,9 @@ Este cenário aproveita a força principal do Zero-Shot: a capacidade de funcion
 
 Este cenário aproveita a força do modelo Fine-Tuned: eficiência, velocidade e baixo custo computacional para alto volume.
 
-#### O Problema: Grandes redes de franquias (ex: Burger King, Smart Fit, etc) recebem milhares de comentários por dia via Google Maps, Reclame Aqui, App Store e outros canais. Ler tudo manualmente é impossível e rodar um modelo grande para milhares de textos diariamente seria muito caro (custo de GPU/Cloud).
+**O Problema:** Grandes redes de franquias (ex: Burger King, Smart Fit, etc) recebem milhares de comentários por dia via Google Maps, Reclame Aqui, App Store e outros canais. Ler tudo manualmente é impossível e rodar um modelo grande para milhares de textos diariamente seria muito caro (custo de GPU/Cloud).
 
-#### **A Aplicação**: Um sistema de "Triagem Automática de Feedback".
+**A Aplicação:** Um sistema de "Triagem Automática de Feedback".
 
 + Você usa o seu modelo Fine-Tuned (DistilBERT), que é leve e rápido.
 + O modelo processa todos os comentários recebidos em batch (ou em tempo real).
