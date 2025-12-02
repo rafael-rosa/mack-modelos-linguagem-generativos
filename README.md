@@ -1,4 +1,4 @@
-# Projeto: Classificação Zero-Shot vs. Fine-Tuning para Análise de Sentimento
+# Projeto: Zero-Shot vs. Fine-Tuning para classificação de Gênero/Tópico a partir de um texto
 
 Este repositório contém o projeto final da disciplina **"Modelos de Linguagem e Generativos"**, focado na comparação de duas técnicas centrais de PLN: Classificação Zero-Shot e Fine-Tuning.
 
