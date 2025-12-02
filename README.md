@@ -132,22 +132,22 @@ Executar o notebook via Google Colab poderá exigir o fornecimento de uma API Ke
 
 <pre>
 .
-├── .venv/                      # Ambiente virtual (ignorado)
-├── coleta_dados/               # Processos de coleta de dados
-    ├── movie_plot_gathering    # Notebok para ler IDs dos filmes e coletar dados via API do OMDB
+├── .venv/                          # Ambiente virtual (ignorado)
+├── coleta_dados/                   # Processos de coleta de dados
+    ├── movie_plot_gathering.ipynb  # Notebok para ler IDs dos filmes e coletar dados via API do OMDB
     ├── /imdb_dataset/  
-        └── title.ratings.tsv   # Dataset com IDs de filmes do IMDB
-    └── /out/                   # Dados dos filmes coletados via API do OMDB (porções de mil)
+        └── title.ratings.tsv       # Dataset com IDs de filmes do IMDB
+    └── /out/                       # Dados dos filmes coletados via API do OMDB (porções de mil)
 ├── data_prep/
-    └── create_movies_dataset   # Compila os dados coletados e um único dataset e faz a preparação dos dados
+    └── create_movies_dataset.ipynb # Compila os dados coletados e um único dataset e faz a preparação dos dados
 ├── movies_dataset/
-    └── movie_plots_dataset.csv # Dataset final para uso nos modelos
-├── results/                    # Checkpoints do modelo Fine-Tuned (gerado)
-├── logs/                       # Logs de treino (gerado)
-├── movie_plot_classifier.ipynb # O notebook principal do projeto
-├── requirements.txt            # Dependências de Python
-├── other-requirements.txt      # Dependências do PyTorch (GPU)
-└── README.md                   # Este arquivo
+    └── movie_plots_dataset.csv     # Dataset final para uso nos modelos
+├── results/                        # Checkpoints do modelo Fine-Tuned (gerado)
+├── logs/                           # Logs de treino (gerado)
+├── movie_plot_classifier.ipynb     # O notebook principal do projeto
+├── requirements.txt                # Dependências de Python
+├── other-requirements.txt          # Dependências do PyTorch (GPU)
+└── README.md                       # Este arquivo
 </pre>
 
 
