@@ -84,7 +84,7 @@ O projeto foi conduzido em três etapas principais:
 ## 🚀 Instruções de Uso
 
 ### Pré-requisitos
-* Python 3.10+
+* Python 3.13+
 * Uma GPU NVIDIA com CUDA (essencial para performance). O projeto foi testado com CUDA 12.9.
 * Git
 
