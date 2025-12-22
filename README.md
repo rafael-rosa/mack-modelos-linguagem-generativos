@@ -2,7 +2,7 @@
 
 Este repositório contém o projeto final da disciplina **"Modelos de Linguagem e Generativos"**, focado na comparação de duas técnicas centrais de PLN: Classificação Zero-Shot e Fine-Tuning.
 
-### Programa de pós-graduação em Computação Aplicada - Metrado Profissional - Mackenzie
+### Programa de pós-graduação em Computação Aplicada - Mestrado Profissional - Mackenzie
 * `Prof. Rogério de Oliveira`
 ### Autores
 * `Gildo Manzi da Silva` - RA: 10329658
